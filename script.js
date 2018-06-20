@@ -1,8 +1,3 @@
-var start = 'Bonjour ', name, end = ' !', result;
-
-
-name   = prompt('Quel est votre prénom ?');
-
-result = start + name + end;
-
-alert(result);
+//boite de dialogue permettant de saisir son prénom
+var firstname = prompt('Entrez votre prénom: ');
+alert('Bonjour, ' + firstname);
